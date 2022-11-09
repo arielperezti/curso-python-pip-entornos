@@ -32,6 +32,9 @@ def choose_options():
 
         else:
             print('MALO! el mongosaurio chulito para el joven')
+
+    
+
     elif user_option == 2:
         print('Bye')
         return None
@@ -44,14 +47,7 @@ def choose_options():
 def main():
     while True:
         choose_options()
-        op = input("""Quieres continuar:
-        1. Si
-        2. No""")
-
-        if op ==2:
-            return None
-        if op ==1:
-            pass
+     
 
 if __name__ == "__main__":
     main()

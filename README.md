@@ -1,6 +1,7 @@
 # Game Project
 
-## Run it as:
+## Run the game:
+To run the game you have to follow this steps into the terminal:
 
 ```sh
 cd game
